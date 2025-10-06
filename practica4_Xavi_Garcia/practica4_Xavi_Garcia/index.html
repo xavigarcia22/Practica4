@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../../practica3_Xavi_Garcia/practica3_Xavi_Garcia/">
       
-      
-        <link rel="next" href="../../exercici2_Xavi_Garcia/exercici2_Xavi_Garcia/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Practica 1 - Practiques 2 ASIX Xavi</title>
+        <title>Practica 5 - Practiques 2 ASIX Xavi</title>
       
     
     
@@ -96,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Practica 1
+              Practica 5
             
           </span>
         </div>
@@ -202,16 +200,9 @@
       
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Exercici1_Xavi/Exercici1_Xavi/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -220,7 +211,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -286,9 +276,16 @@
       
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../practica4_Xavi_Garcia/practica4_Xavi_Garcia/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -297,6 +294,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -332,31 +330,32 @@
                   
 
 
-  <h1>Practica 1</h1>
+  <h1>Practica 5</h1>
 
-<p><strong>Ejercicio 1: Introducción a git y GitHub</strong></p>
+<p><strong>Práctica 4: Desplegament en Github Pages</strong></p>
 <p><strong>IAW</strong></p>
 <p>Xavi Garcia Ferrando 2 ASIX</p>
-<p>4 ASIX/IAW</p>
-<ol>
-<li>Crea a GitHub un repositori amb el nom prova_el_teu_nom (inicialitza el repositori amb un fitxer README) i la descripció Repositorio de prueba 2ASIX.</li>
-</ol>
-<p><img alt="" src="../Aspose.Words.97890d21-f768-460e-b73f-00aa5488b161.001.png" /></p>
-<ol>
-<li>Instal·la git en el teu ordinador (si no el tens instalado!!!)</li>
-</ol>
-<p><img alt="" src="../Aspose.Words.97890d21-f768-460e-b73f-00aa5488b161.002.png" /></p>
-<ol>
-<li>Configuració de git. El primer que hauries de fer quan instal·les Git és establir el teu nom dusuari i adreça de correu electrònic (Assegura’t que les dades són correctes i que has posat el teu nom complet). Això és important perquè les confirmacions de canvis (commits) a Git utilitzen aquesta informació, i és introduïda de manera immutable en els commits que envieu.</li>
-</ol>
-<p><img alt="" src="../Aspose.Words.97890d21-f768-460e-b73f-00aa5488b161.003.png" /></p>
-<p>Clonem el repositori remot.</p>
-<p><img alt="" src="../Aspose.Words.97890d21-f768-460e-b73f-00aa5488b161.004.png" /></p>
-<p>Crearem un nou fitxer, l’afegirem al nostre repositori local i després ho sincronitzarem amb el nostre repositori remot de GitHub. Cada vegada que fem una modificació en un fitxer ho podem assenyalar creant un commit. Els missatges dels commits són fonamentals per explicar l’evolució d’un projecte. Un commit ha de ser un petit conjunt de canvis dels fitxers del projecte amb una certa coherència.</p>
-<p><img alt="" src="../Aspose.Words.97890d21-f768-460e-b73f-00aa5488b161.005.png" /></p>
-<p><img alt="" src="../Aspose.Words.97890d21-f768-460e-b73f-00aa5488b161.006.png" /></p>
-<p>Si modifiqueu un fitxer al vostre repositori local, no l’heu de tornar a afegir al vostre repositori (git add). Però has de fer servir l’opció -a en fer el commit.
-Xavi Garcia Ferrando                                                                                                             4 </p>
+<p>6 ASIX/IAW</p>
+<p>El primer que hem de fer es passar totes les nostres practiques a markdown, utilitzant pagines com <a href="https://products.aspose.app/words/es/conversion/pdf-to-md">conversor_md.</a></p>
+<p>Despres creem la estructura per als fitxers:</p>
+<p><img alt="" src="../Aspose.Words.dd2989cc-bd87-45ef-bc6f-675c303f0ad4.001.png" /></p>
+<p>Una vegada fet, inicialitzem el projecte en mkdocs amb el mateix nom de la estructura, mkdocs detectara la estructura creada i la implantara.</p>
+<p><img alt="" src="../Aspose.Words.dd2989cc-bd87-45ef-bc6f-675c303f0ad4.002.png" /></p>
+<p>Editem el fitxer index.md per a crear el nostre index del projecte y després el mkdocs.yaml amb les rutes fins a les nostres pràctiques.</p>
+<p><img alt="" src="../Aspose.Words.dd2989cc-bd87-45ef-bc6f-675c303f0ad4.003.png" /></p>
+<p>Per a comprobar que es veu correctament, executem:</p>
+<p><img alt="" src="../Aspose.Words.dd2989cc-bd87-45ef-bc6f-675c303f0ad4.004.png" /></p>
+<p>Després obri al navegador <em>htt<a href="http://127.0.0.1:8000/"><em>p://127.0.0.1:8000</em></a></em></p>
+<p>El següent pas sera desplegar en GitHub Pages. Creem un nou repositori: </p>
+<p><img alt="" src="../Aspose.Words.dd2989cc-bd87-45ef-bc6f-675c303f0ad4.005.png" /></p>
+<p>Afegim Git i pugem el projecte.</p>
+<p><img alt="" src="../Aspose.Words.dd2989cc-bd87-45ef-bc6f-675c303f0ad4.006.png" /></p>
+<p><img alt="" src="../Aspose.Words.dd2989cc-bd87-45ef-bc6f-675c303f0ad4.007.png" /></p>
+<p>Finalment, entrem a gitbub en settings&gt;pages i publiquem la pàgina on vorem que crea un enllaç.</p>
+<p><img alt="" src="../Aspose.Words.dd2989cc-bd87-45ef-bc6f-675c303f0ad4.008.png" /></p>
+<p>Si accedim al enllaç podem vore el contingut.</p>
+<p><img alt="" src="../Aspose.Words.dd2989cc-bd87-45ef-bc6f-675c303f0ad4.009.png" />
+Xavi Garcia Ferrando                                                                                                                                     6</p>
 
 
 
