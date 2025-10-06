@@ -1,0 +1,9 @@
+site_name: Practiques 2 ASIX Xavi
+theme:
+  name: material
+nav:
+  - Inici: index.md
+  - Practica 1: Exercici1_Xavi/Exercici1_Xavi.md
+  - Practica 2: exercici2_Xavi_Garcia/exercici2_Xavi_Garcia.md
+  - Practica 3: Practica1_Xavi_Garcia/Practica1_Xavi_Garcia.md
+  - Practica 4: practica3_Xavi_Garcia/practica3_Xavi_Garcia.md
